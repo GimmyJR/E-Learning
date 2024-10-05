@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SuYUZlUMxyJ/XxkhfEOdglAweIX85ulKMqyl+7apDTG7inZx2x/Duh1jcJNFdapKz7jxtk5um+1HIfpsF5zTiw==",
+  "dgSpecHash": "y7vY7rBb7/5lRjN84GXNYSX4d/f4+22HEQARliCx5G+dLdni5cxsVEdAUzVxGzAvHxy6S5uvL7BpiLKrCAY/0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj",
+  "projectFilePath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELSERAG\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELSERAG\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -6186,11 +6186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj",
+      "projectUniqueName": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
       "projectName": "E-Learning",
-      "projectPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj",
+      "projectPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
       "packagesPath": "C:\\Users\\ELSERAG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\obj\\",
+      "outputPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ELSERAG\\AppData\\Roaming\\NuGet\\NuGet.Config",

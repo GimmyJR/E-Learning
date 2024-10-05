@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning", "E-Learning.csproj", "{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Learning.Tests", "..\E-Learning.Tests\E-Learning.Tests.csproj", "{E480DDE6-9485-49D8-87AB-0023171941C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Learning.ests", "..\E-Learning.Tests\E-Learning.ests.csproj", "{E480DDE6-9485-49D8-87AB-0023171941C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

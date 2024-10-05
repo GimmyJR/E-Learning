@@ -20,6 +20,7 @@ namespace E_Learning
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddScoped<IHomeRepository, HomeRepository>();
+            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("constr")));
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
