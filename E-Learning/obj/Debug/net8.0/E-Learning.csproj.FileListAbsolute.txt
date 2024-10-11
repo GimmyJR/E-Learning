@@ -898,3 +898,5 @@ D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\obj\Debug\ne
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\obj\Debug\net8.0\E-Learning.pdb
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\obj\Debug\net8.0\E-Learning.genruntimeconfig.cache
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\obj\Debug\net8.0\ref\E-Learning.dll
+D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll

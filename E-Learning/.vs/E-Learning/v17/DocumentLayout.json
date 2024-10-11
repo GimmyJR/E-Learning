@@ -7,15 +7,30 @@
       "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E480DDE6-9485-49D8-87AB-0023171941C7}|..\\E-Learning.Tests\\E-Learning.ests.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning.tests\\controllerstests\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E480DDE6-9485-49D8-87AB-0023171941C7}|..\\E-Learning.Tests\\E-Learning.ests.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning.tests\\controllerstests\\coursecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|d:\\backend material\\projects\\dot net projects\\e-learning\\e-learning\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF650C2A-C3EB-40CE-892B-4C678A6BF1F8}|E-Learning.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,55 +60,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T16:10:04.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAuwD8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:49:18.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:09:15.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountControllerTests.cs",
+              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\ControllersTests\\AccountControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\E-Learning.Tests\\ControllersTests\\AccountControllerTests.cs",
+              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\ControllersTests\\AccountControllerTests.cs",
+              "RelativeToolTip": "..\\E-Learning.Tests\\ControllersTests\\AccountControllerTests.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAIoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:49:20.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "E-Learning.csproj",
+              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
+              "RelativeDocumentMoniker": "E-Learning.csproj",
+              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
+              "RelativeToolTip": "E-Learning.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T14:49:20.312Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
               "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Controllers\\CourseController.cs",
               "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAwAYAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T17:40:22.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CourseControllerTests.cs",
               "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\ControllersTests\\CourseControllerTests.cs",
               "RelativeDocumentMoniker": "..\\E-Learning.Tests\\ControllersTests\\CourseControllerTests.cs",
               "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\ControllersTests\\CourseControllerTests.cs",
               "RelativeToolTip": "..\\E-Learning.Tests\\ControllersTests\\CourseControllerTests.cs",
-              "ViewState": "AQIAANcAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAAJMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:26:09.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T17:26:09.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Repository\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ICourseRepository.cs",
-              "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Repository\\ICourseRepository.cs",
-              "RelativeToolTip": "Repository\\ICourseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:03:47.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Repository\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
               "ToolTip": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\Repository\\CourseRepository.cs",
               "RelativeToolTip": "Repository\\CourseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAyAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T12:06:52.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T12:06:52.513Z"
             }
           ]
         }

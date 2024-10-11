@@ -32,13 +32,13 @@ namespace E_Learning.Controllers
             return BadRequest(ModelState);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCourse(int id, [FromBody] Course updatedCourse)
         {
 
             if (ModelState.IsValid)
             {
-                var course = courseRepository.UpdateCourse(id,updatedCourse);
+                var course =await courseRepository.UpdateCourse(id,updatedCourse);
                 if (course == null)
                 {
                     return NotFound();

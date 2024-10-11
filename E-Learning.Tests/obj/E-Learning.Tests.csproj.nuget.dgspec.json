@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELSERAG\\source\\repos\\E-Learning.Tests\\E-Learning.Tests.csproj": {}
+    "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\E-Learning.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELSERAG\\source\\repos\\E-Learning.Tests\\E-Learning.Tests.csproj": {
+    "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\E-Learning.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning.Tests\\E-Learning.Tests.csproj",
+        "projectUniqueName": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\E-Learning.Tests.csproj",
         "projectName": "E-Learning.Tests",
-        "projectPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning.Tests\\E-Learning.Tests.csproj",
+        "projectPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\E-Learning.Tests.csproj",
         "packagesPath": "C:\\Users\\ELSERAG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning.Tests\\obj\\",
+        "outputPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ELSERAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj": {
-                "projectPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj"
+              "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj": {
+                "projectPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj": {
+    "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj",
+        "projectUniqueName": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
         "projectName": "E-Learning",
-        "projectPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\E-Learning.csproj",
+        "projectPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\E-Learning.csproj",
         "packagesPath": "C:\\Users\\ELSERAG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELSERAG\\source\\repos\\E-Learning\\obj\\",
+        "outputPath": "D:\\Backend Material\\Projects\\dot net projects\\E-Learning\\E-Learning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ELSERAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
