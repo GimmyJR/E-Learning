@@ -462,3 +462,6 @@ D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\obj\De
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\obj\Debug\net8.0\ref\E-Learning.ests.dll
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Backend Material\Projects\dot net projects\E-Learning\E-Learning.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Twitter.dll

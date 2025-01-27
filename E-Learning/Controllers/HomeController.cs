@@ -15,14 +15,14 @@ namespace E_Learning.Controllers
         {
             this.homeRepository = homeRepository;
         }
-        [HttpGet]
+        [HttpGet("GetCourses")]
         public IActionResult GetCourses()
         {
             var courses = homeRepository.GetCourses();
             return Ok(courses);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetCourseDetails/{id}")]
         public IActionResult GetCourseDetails(int id)
         {
             var course = homeRepository.GetCourseDetails(id);

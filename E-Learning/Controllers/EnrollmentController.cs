@@ -18,7 +18,7 @@ namespace E_Learning.Controllers
             this.userManager = userManager;
             this.enrollmentRepository = enrollmentRepository;
         }
-        [HttpPost]
+        [HttpPost("EnrollInCourse")]
         public async Task<IActionResult> EnrollInCourse([FromBody] int courseId)
         {
             var user = await userManager.GetUserAsync(User);
@@ -31,7 +31,7 @@ namespace E_Learning.Controllers
 
         }
 
-        [HttpDelete("{courseId}")]
+        [HttpDelete("UnenrollFromCourse/{courseId}")]
         public async Task<IActionResult> UnenrollFromCourse(int courseId)
         {
             var user = await userManager.GetUserAsync(User);

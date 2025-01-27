@@ -20,7 +20,7 @@ namespace E_Learning.Controllers
             this.courseRepository = courseRepository;
         }
 
-        [HttpPost]
+        [HttpPost("CreateCourse")]
         public async Task<IActionResult> CreateCourse([FromBody] Course course)
         {
             if (ModelState.IsValid)
@@ -32,7 +32,7 @@ namespace E_Learning.Controllers
             return BadRequest(ModelState);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdateCourse/{id}")]
         public async Task<IActionResult> UpdateCourse(int id, [FromBody] Course updatedCourse)
         {
 
@@ -49,7 +49,7 @@ namespace E_Learning.Controllers
             return BadRequest(ModelState);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteCourse/{id}")]
         public async Task<IActionResult> DeleteCourse(int id)
         {
             courseRepository.DeleteCourse(id);

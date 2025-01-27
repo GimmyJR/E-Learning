@@ -46,9 +46,4 @@ namespace E_Learning.Repository
             return enrollment;
         }
     }
-    public interface IEnrollmentRepository
-    {
-        Task<Enrollment> EnrollInCourse(ApplicationUser user, int courseId);
-        Task<Enrollment> UnenrollFromCourse(ApplicationUser user, int courseId);
-    }
 }

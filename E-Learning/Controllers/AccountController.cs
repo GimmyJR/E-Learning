@@ -61,6 +61,50 @@ namespace E_Learning.Controllers
             return BadRequest();
         }
 
+        [HttpGet("ExternalLogin")]
+        public IActionResult ExternalLogin(string provider,string returnUrl = null)
+        {
+            var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { returnUrl });
+            var properties = signInManager.ConfigureExternalAuthenticationProperties (provider, redirectUrl);
+            return Challenge(properties,provider);
+        }
+
+        [HttpGet("ExternalLoginCallback")]
+        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null,string remoteError = null)
+        {
+            if(remoteError !=null )
+            {
+                return BadRequest(new { mMessage = $"Error from external provider: {remoteError}" });
+            }
+            var info = await signInManager.GetExternalLoginInfoAsync();
+            if (info == null)
+            {
+                return BadRequest(new { mMessage = "Error loading external login information." });
+            }
+
+            var result = await signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
+            if (result.Succeeded)
+            {
+                var user = await userManager.FindByLoginAsync(info.LoginProvider,info.ProviderKey);
+                var token = GenerateToken(user);
+                return Ok(new { Token = token});
+            }
+
+            var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+            if(email != null)
+            {
+                var user = new ApplicationUser { UserName = email, Email = email ,DateJoined = DateTime.Now};
+                var identityresult = await userManager.CreateAsync(user);
+                if(identityresult.Succeeded)
+                {
+                    await userManager.AddLoginAsync(user, info);
+                    var token = GenerateToken(user);
+                    return Ok(new { Token = token });
+                }
+            }
+            return BadRequest(new { Message = "Failed to authenticate." });
+        }
+
         [HttpPost("logout")]
         public async Task<IActionResult> logout()
         {
